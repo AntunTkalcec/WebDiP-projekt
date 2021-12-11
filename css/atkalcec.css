@@ -1,0 +1,285 @@
+@media only screen and (max-width: 1920px) {
+    body {
+        height: 125vh;
+        font-family: arial;
+        margin-top: 30px;
+        padding: 30px;
+    }
+    main {
+        color: white;
+    }
+    header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 80px;
+        font-weight: bold;
+        z-index: 1;
+        background-color: #333;
+        display: flex;
+        align-items: center;
+    }
+    header li a{
+        color: whitesmoke;
+        text-decoration: none;
+    }
+    header li a:hover {
+        font-size: 20px;
+    }
+    header li {
+        margin: 20px;
+    }
+    header * {
+        display: inline;
+    }
+    
+    ul.nav li {
+        float: left;
+    }
+    ul.nav {
+        overflow: hidden;
+    }
+    h1 {
+        text-align: center;
+        font-size: 36px;
+        font-weight: bold;
+        color: black;
+        height: 80px;
+    }
+    footer {
+        font-weight: bold;
+        background-color: #333;
+        text-align: center;
+        color: whitesmoke;
+    }
+    footer a {
+        color: #66b2c1;
+        border: 0;
+        text-decoration: none;
+    }
+    footer a img {
+        padding: 5px;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+    * {
+        box-sizing: border-box;
+    }
+    .obrazac {
+        padding: 16px;
+        background-color: white;
+    }
+    input[type=text], input[type=password] {
+        width: 100%;
+        padding: 15px;
+        margin: 5px 0 22px 0;
+        display: inline-block;
+        border: none;
+        background: #f1f1f1;
+    }
+    input[type=text]:focus, input[type=password]:focus {
+        background-color: #ddd;
+        outline: none;
+    }
+    hr {
+        border: 2px solid #666666;
+        margin-bottom: 20px;
+    }
+    .registriraj {
+        background-color: #33cc00;
+        color: black;
+        padding: 16px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+        opacity: 0.9;
+    }
+    .registriraj:hover {
+        color: dodgerblue;
+        transform: scale(1.05);
+    }
+    .info {
+        font-size: 24px;
+    }
+    .cookie-banner {
+        position: fixed;
+        bottom: 40px;
+        left: 10%;
+        right: 10%;
+        width: 80%;
+        padding: 5px 14px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #eee;
+        border-radius: 5px;
+        box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+    }
+    .close-cookie-banner {
+        height: 20px;
+        background-color: #777;
+        border: none;
+        color: white;
+        border-radius: 2px;
+        cursor: pointer;
+    }
+    #sadrzaj{
+        background-color: #ffffff;
+        color:black;
+        font-size: 25px;
+        float: left;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+    .table-wrapper{
+        margin: 10px 70px 70px;
+        box-shadow: 0px 35px 50px rgba( 0, 0, 0, 0.2 );
+    }
+    .tablica {
+        border-radius: 5px;
+        font-size: 12px;
+        font-weight: normal;
+        border: none;
+        border-collapse: collapse;
+        width: 100%;
+        max-width: 100%;
+        background-color: white;
+        table-layout: fixed;
+    }
+    .tablica td, .tablica th {
+        text-align: center;
+        font-size: 20px;
+        width: 110px;
+        padding: 8px;
+        word-wrap: break-word;
+    }
+    .tablica td {
+        border-right: 1px solid #f8f8f8;
+        font-size: 16px;
+        width: 110px;
+        word-wrap: break-word;
+    }
+    .tablica thead th {
+        color: #ffffff;
+        background: #4FC3A1;
+    }
+    .tablica thead th:nth-child(odd) {
+        color: #ffffff;
+        background: #324960;
+    }
+    .tablica tr:nth-child(even) {
+        background: #F8F8F8;
+    }
+    .help1 {
+        display: none; /* Hidden by default */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Sit on top */
+        left: 0;
+        top: 0;
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        overflow: auto; /* Enable scroll if needed */
+        background-color: rgb(0,0,0); /* Fallback color */
+        background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+        animation-duration: 0.4s
+    }
+    .help1-content {
+        position: fixed;
+        bottom: 0;
+        background-color: #fefefe;
+        width: 100%;
+        animation-duration: 0.4s
+    }
+    .help1-close {
+        color: white;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+    }
+    .help1-close:hover, .help1-close:focus {
+        color: #000;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    .help1-header {
+        padding: 2px 16px;
+        background-color: lightblue;
+        color: white;
+    }
+    .help1-body {
+        padding: 2px 16px;
+    }
+    .help1-footer {
+        padding: 2px 16px;
+        background-color: lightblue;
+        color: white;
+    }
+    .select {
+        width:100%;
+        margin-top: 7px;
+        padding: 16px 20px;
+        border: none;
+        margin-bottom: 25px;
+        border-radius: 4px;
+        background-color: #f1f1f1;
+    }
+    textarea {
+        width: 100%;
+        padding: 16px 20px;
+        border: none;
+        border-radius: 4px;
+        background-color: #f1f1f1;
+        margin-top: 3px;
+        resize: none;
+        font-size: 16px;
+    }
+    .galerija {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    ul.nav li {
+        float: none;
+    }
+    .table-wrapper{
+        margin: 10px 70px 70px;
+        box-shadow: 0px 35px 50px rgba( 0, 0, 0, 0.2 );
+    }
+    .tablica {
+        border-radius: 5px;
+        font-size: 12px;
+        font-weight: normal;
+        border: none;
+        border-collapse: collapse;
+        width: 100%;
+        max-width: 100%;
+        white-space: nowrap;
+        background-color: white;
+    }
+    .tablica td, .tablica th {
+        text-align: center;
+        padding: 8px;
+    }
+    .tablica td {
+        border-right: 1px solid #f8f8f8;
+        font-size: 12px;
+    }
+    .tablica thead th {
+        color: #ffffff;
+        background: #4FC3A1;
+    }
+    .tablica thead th:nth-child(odd) {
+        color: #ffffff;
+        background: #324960;
+    }
+    .tablica tr:nth-child(even) {
+        background: #F8F8F8;
+    }
+}

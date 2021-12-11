@@ -1,0 +1,220 @@
+@media only screen and (max-width: 1920px) {
+    body {
+        height: 125vh;
+        font-family: "Comic Sans", Sans-Serif;
+        background-color: white;
+        font-weight: bold;
+        font-size: 18px;
+        letter-spacing: 3px;
+        word-spacing: 15px;
+        line-height: 2;
+        margin-top: 30px;
+        padding: 30px;
+    }
+    h1 {
+        text-align: center;
+        font-size: 36px;
+        font-weight: bold;
+        color: black;
+        height: 80px;
+    }
+    main {
+        color: white;
+    }
+    header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 80px;
+        font-weight: bold;
+        background-color: #333;
+        display: flex;
+        align-items: center;
+    }
+    header li a{
+        color: whitesmoke;
+        text-decoration: none;
+    }
+    header li a:hover {
+        font-size: 20px;
+    }
+    header li {
+        margin: 20px;
+    }
+    header * {
+        display: inline;
+    }
+    
+    ul.nav li {
+        float: left;
+    }
+    ul.nav {
+        overflow: hidden;
+    }
+    h1 {
+        text-align: center;
+        font-size: 36px;
+        font-weight: bold;
+        color: black;
+        height: 80px;
+    }
+    footer {
+        font-weight: bold;
+        background-color: #333;
+        text-align: center;
+        color: whitesmoke;
+    }
+    footer a {
+        color: #66b2c1;
+        border: 0;
+        text-decoration: none;
+    }
+    footer a img {
+        padding: 5px;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+    footer a {
+        color: #ffffff;
+    }
+    * {
+        box-sizing: border-box;
+    }
+    .cookie-banner {
+        position: fixed;
+        bottom: 40px;
+        left: 10%;
+        right: 10%;
+        width: 80%;
+        padding: 5px 14px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #eee;
+        border-radius: 5px;
+        box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+    }
+    .close-cookie-banner {
+        height: 20px;
+        background-color: #777;
+        border: none;
+        color: white;
+        border-radius: 2px;
+        cursor: pointer;
+    }
+    .table-wrapper{
+        margin: 10px 70px 70px;
+        box-shadow: 0px 35px 50px rgba( 0, 0, 0, 0.2 );
+    }
+    .tablica {
+        border-radius: 5px;
+        font-size: 16px;
+        font-weight: normal;
+        border: none;
+        border-collapse: collapse;
+        width: 100%;
+        max-width: 100%;
+        white-space: nowrap;
+        background-color: white;
+    }
+    .tablica td, .tablica th {
+        text-align: center;
+        padding: 8px;
+    }
+    .tablica td {
+        border-right: 3px solid #f8f8f8;
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .tablica thead th {
+        color: #ffffff;
+        background: #000000;
+    }
+    .tablica thead th:nth-child(odd) {
+        color: #ffffff;
+        background: #000000;
+    }
+    .tablica tr:nth-child(even) {
+        background: #F8F8F8;
+    }
+    .tablica td a {
+        text-decoration: none;
+    }
+    .registriraj {
+        background-color: #ffffff;
+        color: black;
+        padding: 16px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+        opacity: 0.9;
+        font-weight: bold;
+        font-size: 18px;
+    }
+    #roditelj1 {
+        position:relative;
+    }
+    #square1 {
+        background-color: lightblue;
+        width: 100px;
+        height: 100px;
+        visibility: hidden;
+        position: absolute;
+        top: 100px;
+        font-size: 15px;
+        border: 5px outset red;
+        text-align: center;
+        color: white;
+    }
+
+    #roditelj2 {
+        position: relative;
+    }
+    #square2 {
+        background-color: lightblue;
+        width: 100px;
+        height: 100px;
+        visibility: hidden;
+        position: absolute;
+        top: -30px;
+        left:130px;
+        font-size: 15px;
+        border: 5px outset red;
+        text-align: center;
+    }
+    #roditelj3 {
+        position: relative;
+    }
+    #square3 {
+        background-color: lightblue;
+        width: 100px;
+        height: 100px;
+        visibility: hidden;
+        position: absolute;
+        top: -30px;
+        left:130px;
+        font-size: 15px;
+        border: 5px outset red;
+        text-align: center;
+    }
+    #roditelj4 {
+        position: relative;
+    }
+    #square4 {
+        background-color: lightblue;
+        width: 100px;
+        height: 100px;
+        visibility: hidden;
+        position: absolute;
+        top: -30px;
+        left:130px;
+        font-size: 15px;
+        border: 5px outset red;
+        text-align: center;
+    }
+    .help1 {
+        display: none;
+    }
+}
